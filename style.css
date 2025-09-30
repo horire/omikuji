@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Hiragino Sans', 'Yu Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+
+main {
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-width: 300px;
+    margin: 0 20px;
+
+}
+a {
+    font-size: 1.3rem;
+    padding: 12px 30px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+#drawButton {
+    font-size: 1.3rem;
+    padding: 12px 30px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+}
+
+.red{
+    background-color: #f98866;
+    
+}
+.blue{
+    background-color: #80bd9e;
+    
+}
+.green{
+    background-color: #89da59;
+    
+}
